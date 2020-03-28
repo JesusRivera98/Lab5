@@ -1,0 +1,10 @@
+.line-through>div{
+    text-decoration: line-through;
+}
+
+li{
+    border: 1px solid gray;
+    list-style: none;
+    margin: 20px;
+    padding: 10px;
+}
