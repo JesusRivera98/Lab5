@@ -12,12 +12,6 @@ function checkB(){
     let butons = document.querySelectorAll(".check");
     for(let i = 0; i < butons.length; i++){
         butons[i].addEventListener("click", (event) =>{
-            /*
-            let name = butons[i].value;
-            
-            let del = document.getElementById(`${name}`);
-            console.log(del);
-            del.remove();*/
             let name = butons[i].value;            
             let che = document.getElementById(`${name}`);
             console.log(che.class);
